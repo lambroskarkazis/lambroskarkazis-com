@@ -8,7 +8,7 @@ import Header from "../components/Header.astro";
 
 type Props = CollectionEntry<"libraries">["data"];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, cplId } = Astro.props;
 ---
 
 <html lang="en">
@@ -88,6 +88,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 								)
 							}
 						</div>
+						<a href={`https://www.chipublib.org/locations/${cplId}/`} class="cpl_link">CPL Page</a>
 						<hr />
 					</div>
 					<slot />
