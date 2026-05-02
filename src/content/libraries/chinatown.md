@@ -2,6 +2,7 @@
 title: 'Chinatown'
 description: 'Great view right off of the Red Line'
 pubDate: 'April 13 2026'
+heroImage: '../../assets/chinatown.jpg'
 cplId: 20
 ---
 
