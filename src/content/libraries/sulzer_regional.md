@@ -1,6 +1,6 @@
 ---
-title: 'Budlong Woods'
-description: 'Nice Codfish Nearby'
+title: 'Sulzer Regional'
+description: ''
 pubDate: 'June 2 2026'
 heroImage: '../../assets/budlong_woods.jpg'
 cplId: 16
